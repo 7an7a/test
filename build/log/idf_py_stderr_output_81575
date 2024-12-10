@@ -1,0 +1,7 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40382615: cache_ll_l1_resume_dcache at /Users/Tanya/esp/esp-idf/components/hal/esp32s3/include/hal/cache_ll.h:262 (discriminator 4)
+ (inlined by) cache_ll_resume_cache at /Users/Tanya/esp/esp-idf/components/hal/esp32s3/include/hal/cache_ll.h:287 (discriminator 4)
+ (inlined by) cache_hal_resume at /Users/Tanya/esp/esp-idf/components/hal/cache_hal.c:212 (discriminator 4)
+[0m
+[0m

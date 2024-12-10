@@ -1,0 +1,153 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40045c51: crc32_le in ROM
+[0m
+[0;33m--- 0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+0x4200d8ce: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:348
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x420398b8: mbedtls_ssl_read at /Users/Tanya/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_msg.c:5791
+0x42036f7a: esp_mbedtls_read at /Users/Tanya/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c:260
+0x420a4f9d: esp_tls_conn_read at /Users/Tanya/esp/esp-idf/components/esp-tls/esp_tls.c:138
+0x4200d656: https_get_request at /Users/Tanya/https/main/https_request_example_main.c:243
+0x4200d92e: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:362
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037c99a: esp_cpu_wait_for_intr at /Users/Tanya/esp/esp-idf/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+0x4200d8ce: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:348
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+0x4200d8ce: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:348
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x420398b8: mbedtls_ssl_read at /Users/Tanya/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_msg.c:5791
+0x42036f7a: esp_mbedtls_read at /Users/Tanya/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c:260
+0x420a4f9d: esp_tls_conn_read at /Users/Tanya/esp/esp-idf/components/esp-tls/esp_tls.c:138
+0x4200d656: https_get_request at /Users/Tanya/https/main/https_request_example_main.c:243
+0x4200d92e: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:362
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x4037c99a: esp_cpu_wait_for_intr at /Users/Tanya/esp/esp-idf/components/esp_hw_support/cpu.c:64
+[0m
+[0;33m--- 0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+0x4200d8ce: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:348
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+0x4200d8ce: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:348
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e439: set_led_color at /Users/Tanya/https/main/led_control.c:44 (discriminator 1)
+0x4200d8ce: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:348
+0x420a9de1: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420a98a1: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e2f7: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x42010e87: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200de15: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m

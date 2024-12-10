@@ -1,0 +1,5 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem142201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x420188d4: nvs::Page::findItem(unsigned char, nvs::ItemType, char const*, unsigned int&, nvs::Item&, unsigned char, nvs::VerOffset) at /Users/Tanya/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:866
+[0m
+[0m

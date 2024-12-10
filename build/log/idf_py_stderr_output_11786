@@ -1,0 +1,362 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33m--- 0x40375510: call_start_cpu1 at /Users/Tanya/esp/esp-idf/components/esp_system/port/cpu_start.c:196
+[0m
+[0;33m--- 0x42004154: __esp_system_init_fn_init_efuse_check at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:36
+[0m
+[0;33m--- 0x420045ec: __esp_system_init_fn_init_show_cpu_freq at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x42004084: __esp_system_init_fn_init_show_app_info at /Users/Tanya/esp/esp-idf/components/esp_app_format/esp_app_desc.c:123
+[0m
+[0;33m--- 0x42004168: __esp_system_init_fn_init_efuse_show_app_info at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:46
+[0m
+[0;33m--- 0x420064fc: __esp_system_init_fn_init_heap at /Users/Tanya/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40374000: _WindowOverflow4 at /Users/Tanya/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x42009b94: __esp_system_init_fn_esp_timer_init_nonos at /Users/Tanya/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x42009494: __esp_system_init_fn_init_newlib at /Users/Tanya/esp/esp-idf/components/newlib/newlib_init.c:157
+[0m
+[0;33m--- 0x42004638: __esp_system_init_fn_init_brownout at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x42004644: __esp_system_init_fn_init_newlib_time at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x4200ad2c: __esp_system_init_fn_init_vfs_uart at /Users/Tanya/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1129
+[0m
+[0;33m--- 0x4200bd20: __esp_system_init_fn_init_vfs_usj_sec at /Users/Tanya/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c:616
+[0m
+[0;33m--- 0x4200d62c: __esp_system_init_fn_init_vfs_nullfs at /Users/Tanya/esp/esp-idf/components/vfs/nullfs.c:316
+[0m
+[0;33m--- 0x4200bf58: __esp_system_init_fn_init_vfs_console at /Users/Tanya/esp/esp-idf/components/esp_vfs_console/vfs_console.c:226
+[0m
+[0;33m--- 0x42009510: __esp_system_init_fn_init_newlib_stdio at /Users/Tanya/esp/esp-idf/components/newlib/newlib_init.c:202
+[0m
+[0;33m--- 0x42004650: __esp_system_init_fn_init_flash at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x42004204: __esp_system_init_fn_init_efuse at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:155
+[0m
+[0;33m--- 0x4208db84: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m--- 0x4204ff08: esp_ds_conn_lock at /Users/Tanya/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c:53
+[0m
+[0;33m--- 0x42033c08: s_set_default_wifi_log_level at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_init.c:93
+[0m
+[0;33m--- 0x42019c78: _GLOBAL__sub_I__ZN3nvs4PageC2Ev at /Users/Tanya/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:1158
+[0m
+[0;33m--- 0x4037dfb0: enable_timer_group0_for_calibration at /Users/Tanya/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c:199
+[0m
+[0;33m--- 0x42005900: esp_ipc_init at /Users/Tanya/esp/esp-idf/components/esp_system/esp_ipc.c:113
+[0m
+[0;33m--- 0x42004bec: esp_reset_reason_init at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c:63
+[0m
+[0;33m--- 0x4207e3dc: __esp_system_init_fn_esp_timer_init_os at /Users/Tanya/esp/esp-idf/components/esp_timer/src/esp_timer.c:566
+[0m
+[0;33m--- 0x420a6adc: __esp_system_init_fn_esp_security_init at /Users/Tanya/esp/esp-idf/components/esp_security/src/init.c:36
+[0m
+[0;33m--- 0x42007368: __esp_system_init_fn_esp_sleep_startup_init at /Users/Tanya/esp/esp-idf/components/esp_hw_support/sleep_gpio.c:192
+[0m
+[0;33m--- 0x42004678: __esp_system_init_fn_init_apb_dma at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:125
+[0m
+[0;33m--- 0x4200b6ac: __esp_system_init_fn_usb_serial_jtag_conn_status_init at /Users/Tanya/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c:75
+[0m
+[0;33m--- 0x42004684: __esp_system_init_fn_init_disable_rtc_wdt at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x42031808: esp_netif_new_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:712
+[0m
+[0;33m--- 0x42033eac: wifi_default_action_sta_start at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:72
+[0m
+[0;33m--- 0x42030fa8: esp_netif_set_mac_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1018
+[0m
+[0;33m--- 0x42031a2c: esp_netif_start_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1093
+[0m
+[0;33m--- 0x42061024: cnx_start_handoff_cb at ??:?
+[0m
+[0;33m--- 0x42033edc: wifi_default_action_sta_connected at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:86
+[0m
+[0;33m--- 0x42031c58: esp_netif_up_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1723
+[0m
+[0;33m--- 0x42031444: esp_netif_dhcpc_start_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1515
+[0m
+[0;33m--- 0x42012d94: example_handler_on_wifi_connect at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:64
+[0m
+[0;33m--- 0x42031588: esp_netif_create_ip6_linklocal_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2186
+[0m
+[0;33m--- 0x42032088: esp_netif_update_default_netif_lwip at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:313
+[0m
+[0;33m--- 0x42012b1c: example_handler_on_sta_got_ipv6 at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:89
+[0m
+[0;33m--- 0x42032088: esp_netif_update_default_netif_lwip at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:313
+[0m
+[0;33m--- 0x42033cfc: wifi_default_action_sta_got_ip at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:128
+[0m
+[0;33m--- 0x42012d04: example_handler_on_sta_got_ip at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:72
+[0m
+[0;33m--- 0x42012938: print_all_ips_tcpip at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/connect.c:57
+0x420a7954: tcpip_exec_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:702
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200e749: set_led_color at /Users/Tanya/https/main/led_control.c:43 (discriminator 1)
+[0m
+[0;33m--- 0x4037ea6f: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375db1: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037ea79: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x403875ad: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037ea6f: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e749: set_led_color at /Users/Tanya/https/main/led_control.c:43 (discriminator 1)
+0x4200dba2: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:338
+0x420abf2a: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420ac5e5: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e60b: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x4201162f: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200e105: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f511: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375cf0: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375510: call_start_cpu1 at /Users/Tanya/esp/esp-idf/components/esp_system/port/cpu_start.c:196
+[0m
+[0;33m--- 0x42004154: __esp_system_init_fn_init_efuse_check at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:36
+[0m
+[0;33m--- 0x420045ec: __esp_system_init_fn_init_show_cpu_freq at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x42004084: __esp_system_init_fn_init_show_app_info at /Users/Tanya/esp/esp-idf/components/esp_app_format/esp_app_desc.c:123
+[0m
+[0;33m--- 0x42004168: __esp_system_init_fn_init_efuse_show_app_info at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:46
+[0m
+[0;33m--- 0x420064fc: __esp_system_init_fn_init_heap at /Users/Tanya/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40374000: _WindowOverflow4 at /Users/Tanya/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x42009b94: __esp_system_init_fn_esp_timer_init_nonos at /Users/Tanya/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x42009494: __esp_system_init_fn_init_newlib at /Users/Tanya/esp/esp-idf/components/newlib/newlib_init.c:157
+[0m
+[0;33m--- 0x42004638: __esp_system_init_fn_init_brownout at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x42004644: __esp_system_init_fn_init_newlib_time at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x4200ad2c: __esp_system_init_fn_init_vfs_uart at /Users/Tanya/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1129
+[0m
+[0;33m--- 0x4200bd20: __esp_system_init_fn_init_vfs_usj_sec at /Users/Tanya/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c:616
+[0m
+[0;33m--- 0x4200d62c: __esp_system_init_fn_init_vfs_nullfs at /Users/Tanya/esp/esp-idf/components/vfs/nullfs.c:316
+[0m
+[0;33m--- 0x4200bf58: __esp_system_init_fn_init_vfs_console at /Users/Tanya/esp/esp-idf/components/esp_vfs_console/vfs_console.c:226
+[0m
+[0;33m--- 0x42009510: __esp_system_init_fn_init_newlib_stdio at /Users/Tanya/esp/esp-idf/components/newlib/newlib_init.c:202
+[0m
+[0;33m--- 0x42004650: __esp_system_init_fn_init_flash at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x42004204: __esp_system_init_fn_init_efuse at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:155
+[0m
+[0;33m--- 0x4208db84: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m--- 0x4204ff08: esp_ds_conn_lock at /Users/Tanya/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c:53
+[0m
+[0;33m--- 0x42033c08: s_set_default_wifi_log_level at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_init.c:93
+[0m
+[0;33m--- 0x42019c78: _GLOBAL__sub_I__ZN3nvs4PageC2Ev at /Users/Tanya/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:1158
+[0m
+[0;33m--- 0x4037dfb0: enable_timer_group0_for_calibration at /Users/Tanya/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c:199
+[0m
+[0;33m--- 0x42005900: esp_ipc_init at /Users/Tanya/esp/esp-idf/components/esp_system/esp_ipc.c:113
+[0m
+[0;33m--- 0x42004bec: esp_reset_reason_init at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c:63
+[0m
+[0;33m--- 0x4207e3dc: __esp_system_init_fn_esp_timer_init_os at /Users/Tanya/esp/esp-idf/components/esp_timer/src/esp_timer.c:566
+[0m
+[0;33m--- 0x420a6adc: __esp_system_init_fn_esp_security_init at /Users/Tanya/esp/esp-idf/components/esp_security/src/init.c:36
+[0m
+[0;33m--- 0x42007368: __esp_system_init_fn_esp_sleep_startup_init at /Users/Tanya/esp/esp-idf/components/esp_hw_support/sleep_gpio.c:192
+[0m
+[0;33m--- 0x42004678: __esp_system_init_fn_init_apb_dma at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:125
+[0m
+[0;33m--- 0x4200b6ac: __esp_system_init_fn_usb_serial_jtag_conn_status_init at /Users/Tanya/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c:75
+[0m
+[0;33m--- 0x42004684: __esp_system_init_fn_init_disable_rtc_wdt at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x42031808: esp_netif_new_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:712
+[0m
+[0;33m--- 0x42033eac: wifi_default_action_sta_start at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:72
+[0m
+[0;33m--- 0x42030fa8: esp_netif_set_mac_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1018
+[0m
+[0;33m--- 0x42031a2c: esp_netif_start_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1093
+[0m
+[0;33m--- 0x42061024: cnx_start_handoff_cb at ??:?
+[0m
+[0;33m--- 0x42033edc: wifi_default_action_sta_connected at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:86
+[0m
+[0;33m--- 0x42031c58: esp_netif_up_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1723
+[0m
+[0;33m--- 0x42031444: esp_netif_dhcpc_start_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1515
+[0m
+[0;33m--- 0x42012d94: example_handler_on_wifi_connect at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:64
+[0m
+[0;33m--- 0x42031588: esp_netif_create_ip6_linklocal_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2186
+[0m
+[0;33m--- 0x42032088: esp_netif_update_default_netif_lwip at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:313
+[0m
+[0;33m--- 0x42033cfc: wifi_default_action_sta_got_ip at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:128
+[0m
+[0;33m--- 0x42032088: esp_netif_update_default_netif_lwip at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:313
+[0m
+[0;33m--- 0x42012d04: example_handler_on_sta_got_ip at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:72
+[0m
+[0;33m--- 0x42012b1c: example_handler_on_sta_got_ipv6 at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:89
+[0m
+[0;33m--- 0x42012938: print_all_ips_tcpip at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/connect.c:57
+0x420a7954: tcpip_exec_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:702
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200e749: set_led_color at /Users/Tanya/https/main/led_control.c:43 (discriminator 1)
+[0m
+[0;33m--- 0x4037ea6f: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375db1: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037ea79: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x403875ad: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037ea6f: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e749: set_led_color at /Users/Tanya/https/main/led_control.c:43 (discriminator 1)
+0x4200dba2: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:338
+0x420abf2a: handler_execute at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:135
+0x420ac5e5: esp_event_loop_run at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:592
+0x4200e60b: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:204
+0x4201162f: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
+0x4200e105: rc522_task at /Users/Tanya/https/main/rc522.c:297
+0x4037f511: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375cf0: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375510: call_start_cpu1 at /Users/Tanya/esp/esp-idf/components/esp_system/port/cpu_start.c:196
+[0m
+[0;33m--- 0x42004154: __esp_system_init_fn_init_efuse_check at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:36
+[0m
+[0;33m--- 0x420045ec: __esp_system_init_fn_init_show_cpu_freq at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:58
+[0m
+[0;33m--- 0x42004084: __esp_system_init_fn_init_show_app_info at /Users/Tanya/esp/esp-idf/components/esp_app_format/esp_app_desc.c:123
+[0m
+[0;33m--- 0x42004168: __esp_system_init_fn_init_efuse_show_app_info at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:46
+[0m
+[0;33m--- 0x420064fc: __esp_system_init_fn_init_heap at /Users/Tanya/esp/esp-idf/components/heap/heap_caps_init.c:25
+[0m
+[0;33m--- 0x40374000: _WindowOverflow4 at /Users/Tanya/esp/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x42009b94: __esp_system_init_fn_esp_timer_init_nonos at /Users/Tanya/esp/esp-idf/components/esp_timer/src/esp_timer_init.c:28
+[0m
+[0;33m--- 0x42009494: __esp_system_init_fn_init_newlib at /Users/Tanya/esp/esp-idf/components/newlib/newlib_init.c:157
+[0m
+[0;33m--- 0x42004638: __esp_system_init_fn_init_brownout at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:67
+[0m
+[0;33m--- 0x42004644: __esp_system_init_fn_init_newlib_time at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:81
+[0m
+[0;33m--- 0x4200ad2c: __esp_system_init_fn_init_vfs_uart at /Users/Tanya/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:1129
+[0m
+[0;33m--- 0x4200bd20: __esp_system_init_fn_init_vfs_usj_sec at /Users/Tanya/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c:616
+[0m
+[0;33m--- 0x4200d62c: __esp_system_init_fn_init_vfs_nullfs at /Users/Tanya/esp/esp-idf/components/vfs/nullfs.c:316
+[0m
+[0;33m--- 0x4200bf58: __esp_system_init_fn_init_vfs_console at /Users/Tanya/esp/esp-idf/components/esp_vfs_console/vfs_console.c:226
+[0m
+[0;33m--- 0x42009510: __esp_system_init_fn_init_newlib_stdio at /Users/Tanya/esp/esp-idf/components/newlib/newlib_init.c:202
+[0m
+[0;33m--- 0x42004650: __esp_system_init_fn_init_flash at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:88
+[0m
+[0;33m--- 0x42004204: __esp_system_init_fn_init_efuse at /Users/Tanya/esp/esp-idf/components/efuse/src/esp_efuse_startup.c:155
+[0m
+[0;33m--- 0x4208db84: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m--- 0x4204ff08: esp_ds_conn_lock at /Users/Tanya/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c:53
+[0m
+[0;33m--- 0x42033c08: s_set_default_wifi_log_level at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_init.c:93
+[0m
+[0;33m--- 0x42019c78: _GLOBAL__sub_I__ZN3nvs4PageC2Ev at /Users/Tanya/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:1158
+[0m
+[0;33m--- 0x4037dfb0: enable_timer_group0_for_calibration at /Users/Tanya/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c:199
+[0m
+[0;33m--- 0x42005900: esp_ipc_init at /Users/Tanya/esp/esp-idf/components/esp_system/esp_ipc.c:113
+[0m
+[0;33m--- 0x42004bec: esp_reset_reason_init at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c:63
+[0m
+[0;33m--- 0x4207e3dc: __esp_system_init_fn_esp_timer_init_os at /Users/Tanya/esp/esp-idf/components/esp_timer/src/esp_timer.c:566
+[0m
+[0;33m--- 0x420a6adc: __esp_system_init_fn_esp_security_init at /Users/Tanya/esp/esp-idf/components/esp_security/src/init.c:36
+[0m
+[0;33m--- 0x42007368: __esp_system_init_fn_esp_sleep_startup_init at /Users/Tanya/esp/esp-idf/components/esp_hw_support/sleep_gpio.c:192
+[0m
+[0;33m--- 0x42004678: __esp_system_init_fn_init_apb_dma at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:125
+[0m
+[0;33m--- 0x4200b6ac: __esp_system_init_fn_usb_serial_jtag_conn_status_init at /Users/Tanya/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c:75
+[0m
+[0;33m--- 0x42004684: __esp_system_init_fn_init_disable_rtc_wdt at /Users/Tanya/esp/esp-idf/components/esp_system/startup_funcs.c:143
+[0m
+[0;33m--- 0x42031808: esp_netif_new_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:712
+[0m
+[0;33m--- 0x42033eac: wifi_default_action_sta_start at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:72
+[0m
+[0;33m--- 0x42030fa8: esp_netif_set_mac_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1018
+[0m
+[0;33m--- 0x42031a2c: esp_netif_start_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1093
+[0m
+[0;33m--- 0x42061024: cnx_start_handoff_cb at ??:?
+[0m
+[0;33m--- 0x42033edc: wifi_default_action_sta_connected at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:86
+[0m
+[0;33m--- 0x42031c58: esp_netif_up_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1723
+[0m
+[0;33m--- 0x42031444: esp_netif_dhcpc_start_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1515
+[0m
+[0;33m--- 0x42012d94: example_handler_on_wifi_connect at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:64
+[0m
+[0;33m--- 0x42031588: esp_netif_create_ip6_linklocal_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2186
+[0m
+[0;33m--- 0x42032088: esp_netif_update_default_netif_lwip at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:313
+[0m
+[0;33m--- 0x42012b1c: example_handler_on_sta_got_ipv6 at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:89
+[0m
+[0;33m--- 0x42032088: esp_netif_update_default_netif_lwip at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:313
+[0m
+[0;33m--- 0x42033cfc: wifi_default_action_sta_got_ip at /Users/Tanya/esp/esp-idf/components/esp_wifi/src/wifi_default.c:128
+[0m
+[0;33m--- 0x42012d04: example_handler_on_sta_got_ip at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:72
+[0m
+[0;33m--- 0x42012938: print_all_ips_tcpip at /Users/Tanya/esp/esp-idf/examples/common_components/protocol_examples_common/connect.c:57
+0x420a7954: tcpip_exec_api at /Users/Tanya/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:702
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0;33m--- 0x4200db54: on_picc_state_changed at /Users/Tanya/https/main/https_request_example_main.c:328
+[0m
+[0m

@@ -1,0 +1,7 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x42017d3a: nvs::NVSPartitionManager::init_partition(char const*) at /Users/Tanya/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:47
+[0m
+[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[0m

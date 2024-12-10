@@ -1,0 +1,26 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141401 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.20/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/usr/local/Cellar/python@3.9/3.9.20/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/esp_idf_monitor/base/stoppable_thread.py", line 47, in _run_outer
+    self.run()
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/esp_idf_monitor/base/serial_reader.py", line 51, in run
+    self.open_serial(reset=self.reset)
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/esp_idf_monitor/base/serial_reader.py", line 112, in open_serial
+    self.reset_strategy.hard()
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/esp_idf_monitor/base/reset.py", line 115, in hard
+    self._setRTS(HIGH)  # EN=HIGH, chip out of reset
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/esp_idf_monitor/base/reset.py", line 80, in _setRTS
+    self.serial_instance.setRTS(value)
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/serial/serialutil.py", line 600, in setRTS
+    self.rts = value
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/serial/serialutil.py", line 463, in rts
+    self._update_rts_state()
+  File "/Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/lib/python3.9/site-packages/serial/serialposix.py", line 708, in _update_rts_state
+    fcntl.ioctl(self.fd, TIOCMBIC, TIOCM_RTS_str)
+OSError: [Errno 6] Device not configured
+[0m

@@ -1,0 +1,6 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x42079692: rmt_ll_mem_power_by_pmu at /Users/Tanya/esp/esp-idf/components/hal/esp32s3/include/hal/rmt_ll.h:118
+ (inlined by) rmt_hal_init at /Users/Tanya/esp/esp-idf/components/hal/rmt_hal.c:13
+[0m
+[0m

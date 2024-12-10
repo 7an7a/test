@@ -1,0 +1,26 @@
+idf_component_register(
+    SRCS 
+        "https_request_example_main.c" 
+        "time_sync.c" 
+        "wifi_default.c" 
+        "ws2812.c" 
+        "https_request.c" 
+        "rc522.c"
+        "led_control.c"
+    INCLUDE_DIRS 
+        "." 
+        "include" 
+    REQUIRES 
+          rc522
+          esp_wifi 
+          lwip
+          nvs_flash
+          esp-tls
+          esp_system
+           json
+          led_strip
+    PRIV_REQUIRES esp_timer
+    EMBED_TXTFILES 
+        "server_root_cert.pem"
+        "local_server_cert.pem"
+)

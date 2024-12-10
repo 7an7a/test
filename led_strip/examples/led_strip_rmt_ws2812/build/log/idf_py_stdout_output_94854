@@ -1,0 +1,5 @@
+[1/4] cd /Users/Tanya/led_strip/examples/led_strip_rmt_ws2812/build/esp-idf/esptool_py && /Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/bin/python /Users/Tanya/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/Tanya/led_strip/examples/led_strip_rmt_ws2812/build/partition_table/partition-table.bin /Users/Tanya/led_strip/examples/led_strip_rmt_ws2812/build/led_strip_rmt_ws2812.bin
+led_strip_rmt_ws2812.bin binary size 0x33d90 bytes. Smallest app partition is 0x100000 bytes. 0xcc270 bytes (80%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /Users/Tanya/led_strip/examples/led_strip_rmt_ws2812/build/bootloader/esp-idf/esptool_py && /Users/Tanya/.espressif/python_env/idf5.5_py3.9_env/bin/python /Users/Tanya/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /Users/Tanya/led_strip/examples/led_strip_rmt_ws2812/build/bootloader/bootloader.bin
+Bootloader binary size 0x5260 bytes. 0x2da0 bytes (36%) free.

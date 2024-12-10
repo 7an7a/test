@@ -1,0 +1,380 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x420a869a: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:164 (discriminator 1)
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+[0m
+[0;33m--- 0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+[0m
+[0;33m--- 0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+[0m
+[0;33m--- 0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4038761d: __assert_func at /Users/Tanya/esp/esp-idf/components/newlib/assert.c:80
+0x42019881: tcpip_callback at /Users/Tanya/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x4201968c: esp_sntp_init at /Users/Tanya/esp/esp-idf/components/lwip/apps/sntp/sntp.c:179
+0x4200d2c5: initialize_sntp at /Users/Tanya/https/main/https_request_example_main.c:112
+0x4200d71b: app_main at /Users/Tanya/https/main/https_request_example_main.c:288
+0x420a870b: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m

@@ -1,0 +1,69 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40048ded: uart_rx_readbuff in ROM
+[0m
+[0;33m--- 0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+0x4200d971: set_led_rainbow at /Users/Tanya/https/main/https_request_example_main.c:394
+0x4200dc3e: app_main at /Users/Tanya/https/main/https_request_example_main.c:491
+0x420ac31f: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+0x4200d971: set_led_rainbow at /Users/Tanya/https/main/https_request_example_main.c:394
+0x4200dc3e: app_main at /Users/Tanya/https/main/https_request_example_main.c:491
+0x420ac31f: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+0x4200d971: set_led_rainbow at /Users/Tanya/https/main/https_request_example_main.c:394
+0x4200dc3e: app_main at /Users/Tanya/https/main/https_request_example_main.c:491
+0x420ac31f: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+[0m
+[0;33m--- 0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
+0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387505: abort at /Users/Tanya/esp/esp-idf/components/newlib/abort.c:38
+0x4037e9c7: _esp_error_check_failed at /Users/Tanya/esp/esp-idf/components/esp_system/esp_err.c:49
+0x4200e55d: set_led_color at /Users/Tanya/https/main/led_control.c:64 (discriminator 1)
+0x4200d971: set_led_rainbow at /Users/Tanya/https/main/https_request_example_main.c:394
+0x4200dc3e: app_main at /Users/Tanya/https/main/https_request_example_main.c:491
+0x420ac31f: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m
