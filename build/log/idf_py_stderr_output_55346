@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem142201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x420188d4: nvs::Page::findItem(unsigned char, nvs::ItemType, char const*, unsigned int&, nvs::Item&, unsigned char, nvs::VerOffset) at /Users/Tanya/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:866
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed08a7d056650d7cc637ecfcfd3d109e3e8b5c20ee0746a46d71e2fbedce6181
+size 371

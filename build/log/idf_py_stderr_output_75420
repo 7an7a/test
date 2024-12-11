@@ -1,8 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x42009aaf: uart_ll_get_txfifo_len at /Users/Tanya/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:410
- (inlined by) uart_tx_char at /Users/Tanya/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
-[0m
-[0;33m--- 0x403759b9: rtc_brownout_isr_handler at /Users/Tanya/esp/esp-idf/components/esp_system/port/brownout.c:72
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f2ff1a14499c6a319487f3c54b975e25f6b555394b01e4459402446d9cd364b
+size 503

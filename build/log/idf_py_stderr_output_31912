@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x400559cc: _xtos_set_intlevel in ROM
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:b343633726f8e794b4880d75ab81624628d6ac0477c125314bd931fe551bf442
+size 206

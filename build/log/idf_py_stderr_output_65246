@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4037f76c: vPortExitCritical at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:496
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:9093fd6eeaec6910f7d68662748c9a5ed39b4d00f2fe2bee2de1f538ee3cfeb6
+size 289

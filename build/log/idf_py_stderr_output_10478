@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x400490d9: usb_uart_device_rx_one_char in ROM
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2a687c09efa1a5c19c57673016daa25bf2490ea93910d60365b25137423d71b
+size 215

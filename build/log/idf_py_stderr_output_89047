@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4037a090: rmt_encode_bytes at /Users/Tanya/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c:107
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:315556dca64469f4dea1b92c0cd347faebc8ec32b0b9f76244845926eb5b4dfa
+size 273

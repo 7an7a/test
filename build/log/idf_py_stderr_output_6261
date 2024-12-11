@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4200b4c2: usb_serial_jtag_tx_char_no_driver at /Users/Tanya/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c:159 (discriminator 1)
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:69d50c087096e4004b945097847e30eec4887f51920c5d161e8a5bef388371ce
+size 328

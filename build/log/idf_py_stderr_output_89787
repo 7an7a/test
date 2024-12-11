@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4037f61c: xPortEnterCriticalTimeout at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:469
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:43042367115de7be6be5478fcea0ad660d497d44347e730c96fa00d41b77f907
+size 297

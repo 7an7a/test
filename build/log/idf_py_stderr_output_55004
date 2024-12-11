@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x40056f6f: memcpy in ROM
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:de8f73cdaa64227c8a9fc613186152dbfe94fab0bcf65257e13b90865ec89b9d
+size 194

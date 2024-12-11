@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem142201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4004f3bf: Cache_Suspend_ICache in ROM
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:862962322e9204b36dc9e70157d8d0f8025f2ce321ef7e47680598dc796f9bee
+size 208

@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem142201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x40048df9: uart_rx_readbuff in ROM
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:eeb427fefb99e19d4341c83be37f3eb8570f8b08e8d4e9a9c8fb012e04ea29e5
+size 204

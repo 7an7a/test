@@ -1,7 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x400490cc: usb_uart_device_rx_one_char in ROM
-[0m
-[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
-[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:90a0af5fde15f621d32a4b648e08953c806de5f05986ed721dd2c97b35ee5bd0
+size 356

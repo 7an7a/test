@@ -1,11 +1,3 @@
-CMake Error at /Users/Tanya/esp/esp-idf/tools/cmake/build.cmake:318 (message):
-  Failed to resolve component 'rc522' required by component 'main': unknown
-  name.
-Call Stack (most recent call first):
-  /Users/Tanya/esp/esp-idf/tools/cmake/build.cmake:361 (__build_resolve_and_add_req)
-  /Users/Tanya/esp/esp-idf/tools/cmake/build.cmake:665 (__build_expand_requirements)
-  /Users/Tanya/esp/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
-  CMakeLists.txt:15 (project)
-
-
-ninja: error: rebuilding 'build.ninja': subcommand failed
+version https://git-lfs.github.com/spec/v1
+oid sha256:624ced53f9b1fb004d2218a3b46fc76a76260748cc8997a16a0d7084c1bd0229
+size 537

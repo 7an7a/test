@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x40378044: spi_flash_disable_interrupts_caches_and_other_cpu at /Users/Tanya/esp/esp-idf/components/spi_flash/cache_utils.c:208 (discriminator 1)
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2a7ba3efec53c8a49371c45ac638f58523e9d1bc230499ad5e86800f044e247
+size 315

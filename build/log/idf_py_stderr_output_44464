@@ -1,7 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141301 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x40041a76: ets_delay_us in ROM
-[0m
-[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
-[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:980d4a424d438782772a5b00d388c683da7e5595617ef7a4a6a38e47f7dc7b3b
+size 509

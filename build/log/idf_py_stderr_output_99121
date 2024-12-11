@@ -1,6 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x40384128: spimem_flash_ll_cmd_is_done at /Users/Tanya/esp/esp-idf/components/hal/esp32s3/include/hal/spimem_flash_ll.h:63
- (inlined by) spi_flash_hal_poll_cmd_done at /Users/Tanya/esp/esp-idf/components/hal/spi_flash_hal_common.inc:40
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5a6639673bb214aef1e0e29f3a0fa3bf49c9dc8cfa5daf2bd62fb43da7b3cc8
+size 405

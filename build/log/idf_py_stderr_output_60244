@@ -1,14 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x420144d8: add_entry at /Users/Tanya/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:204
-[0m
-[0;33m--- 0x40375d65: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
-0x4037e9d1: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
-0x4037f84e: vApplicationStackOverflowHook at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
-0x40380cea: vTaskSwitchContext at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 1)
-0x4037f914: _frxt_dispatch at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
-0x4037f90a: _frxt_int_exit at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
-[0m
-[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:727e71bca0c5e912b6bc84158fa61f3b8f3958a5a43096e93d9484662b6efff6
+size 1106

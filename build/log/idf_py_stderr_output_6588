@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141401 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x40045c79: crc32_le in ROM
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:182044fcc04f207a0344742f3c4ddc53d3600dd5e2ca239d0cdb6ec1b59ed396
+size 196

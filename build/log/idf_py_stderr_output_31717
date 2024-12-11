@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x42015541: spi_flash_hal_supports_direct_read at /Users/Tanya/esp/esp-idf/components/hal/spi_flash_hal.c:160
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:d77bcab8e81d8a632fff848763fb972fb4d8a71fb157bddd17fcf9a72c3f99fc
+size 278

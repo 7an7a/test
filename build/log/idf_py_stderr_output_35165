@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4004f49d: Cache_Resume_DCache in ROM
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:22b18fb3528e18682133f45da1784963aa6d1f49bfd5c6a71078f47cfe926a29
+size 207

@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141401 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4209d568: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1612
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e0cc1603df030509725977772b2607fc6ee6f6aa975821ad48ec5e9db0a83f4
+size 287

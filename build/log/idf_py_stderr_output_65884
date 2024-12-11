@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem142201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x420147bb: esp_mmu_map at /Users/Tanya/esp/esp-idf/components/esp_mm/esp_mmu_map.c:494
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3573d8511f428e14243f02f21ce3b9dff4372d8cc68d7461625130b5a6044d2
+size 256

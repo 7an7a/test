@@ -1,8 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem142201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x403766a7: get_all_caps at /Users/Tanya/esp/esp-idf/components/heap/heap_private.h:53 (discriminator 1)
- (inlined by) heap_caps_aligned_alloc_base at /Users/Tanya/esp/esp-idf/components/heap/heap_caps_base.c:131 (discriminator 1)
-[0m
-[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
-[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee8b1f9ccb8c68cae59792e99521a3ed7b2ce31cd4c9a9cd0d9cbd37a53a1854
+size 552

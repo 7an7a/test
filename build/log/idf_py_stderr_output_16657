@@ -1,6 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141401 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4200815b: uart_ll_get_txfifo_len at /Users/Tanya/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:410
- (inlined by) uart_tx_char at /Users/Tanya/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c:190
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:9529f960804c65d10f40d3096b5a649cf853c58872af4940ee71b068ac094894
+size 381

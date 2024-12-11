@@ -1,6 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4037f6a8: spinlock_acquire at /Users/Tanya/esp/esp-idf/components/esp_hw_support/include/spinlock.h:133
- (inlined by) xPortEnterCriticalTimeout at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:479
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:d21fd6ea130cfe8d52a5d7a3bf1a7b67a7e5124fd50581582d19b9097374b5eb
+size 405

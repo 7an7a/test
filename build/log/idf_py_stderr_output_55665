@@ -1,11 +1,3 @@
-CMake Error at /Users/Tanya/esp/esp-idf/tools/cmake/build.cmake:318 (message):
-  Failed to resolve component 'led_strip' required by component 'main':
-  unknown name.
-Call Stack (most recent call first):
-  /Users/Tanya/esp/esp-idf/tools/cmake/build.cmake:361 (__build_resolve_and_add_req)
-  /Users/Tanya/esp/esp-idf/tools/cmake/build.cmake:665 (__build_expand_requirements)
-  /Users/Tanya/esp/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
-  CMakeLists.txt:14 (project)
-
-
-ninja: error: rebuilding 'build.ninja': subcommand failed
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc00f1a902ea577f3717d88a01d8f550b624920febef803b01f158445bbb58d0
+size 541

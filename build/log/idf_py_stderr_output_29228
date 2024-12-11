@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141401 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x420ac25f: main_task at /Users/Tanya/esp/esp-idf/components/freertos/app_startup.c:164 (discriminator 1)
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0da26d11bbb068d81300c0c3cbbab6030da0f0df9426813cbae774b2e88829d
+size 274

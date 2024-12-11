@@ -1,15 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x40048d1a: uart_rx_one_char in ROM
-[0m
-[0;33m--- 0x40375d69: panic_abort at /Users/Tanya/esp/esp-idf/components/esp_system/panic.c:454
-0x4037e9d5: esp_system_abort at /Users/Tanya/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
-0x4037f852: vApplicationStackOverflowHook at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:563
-0x40380cfb: vTaskSwitchContext at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3701 (discriminator 7)
-0x4037f918: _frxt_dispatch at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
-0x4037f90e: _frxt_int_exit at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
-0x42025a05: mbedtls_mpi_grow at /Users/Tanya/esp/esp-idf/components/mbedtls/mbedtls/library/bignum.c:218
-[0m
-[0;33m--- 0x4037c99e: esp_cpu_wait_for_intr at /Users/Tanya/esp/esp-idf/components/esp_hw_support/cpu.c:64
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:92026cbbd59e773b5024ee1420eda6a26566f55cb57c112c2bf0e877a2af5e2e
+size 1130

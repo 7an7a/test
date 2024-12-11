@@ -1,21 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x4037c99a: esp_cpu_wait_for_intr at /Users/Tanya/esp/esp-idf/components/esp_hw_support/cpu.c:64
-[0m
-[0;33m--- 0x40056f1f: __memcpy_aux in ROM
-[0m
-[0;33m--- 0x40056f5c: memcpy in ROM
-0x40056f72: memcpy in ROM
-[0m
-[0;33m--- 0x40056f1c: __memcpy_aux in ROM
-0x4037ea43: prvCopyDataToQueue at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:2481
-0x4037ee5c: xQueueGenericSend at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:964
-0x4209f65d: esp_event_post_to at /Users/Tanya/esp/esp-idf/components/esp_event/esp_event.c:866
-0x4200c723: rc522_dispatch_event at /Users/Tanya/https/main/rc522.c:202
-0x4200f27b: rc522_picc_set_state at /Users/Tanya/https/rc522/src/rc522_picc.c:746
-0x4200c2ca: rc522_task at /Users/Tanya/https/main/rc522.c:312
-0x4037f469: vPortTaskWrapper at /Users/Tanya/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
-[0m
-[0;33m--- 0x40375ca4: esp_restart_noos at /Users/Tanya/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f64a4582327074787da7dbd14f278d3c41f9ce8c1adf4578b5fd92ef49d704e
+size 1208

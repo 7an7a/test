@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x420057d0: esp_ipc_call_nonblocking at /Users/Tanya/esp/esp-idf/components/esp_system/esp_ipc.c:189
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae9c2dbe528a05817b477ee0fd92205b7854efc57ab2d41eede19c7a7934c0ac
+size 269

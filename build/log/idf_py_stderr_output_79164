@@ -1,5 +1,3 @@
-[0;33m--- esp-idf-monitor 1.5.0 on /dev/cu.usbmodem141201 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0;33m--- 0x42017172: nvs::Storage::populateBlobIndices(intrusive_list<nvs::Storage::BlobIndexNode>&) at /Users/Tanya/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:56
-[0m
-[0m
+version https://git-lfs.github.com/spec/v1
+oid sha256:bba0806a016286a90c3f9077db79ada174bdc6f7a46997f2c936755c4fe366ae
+size 332
