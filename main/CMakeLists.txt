@@ -19,7 +19,8 @@ idf_component_register(
           esp_system
            json
           led_strip
-    PRIV_REQUIRES esp_timer
+    PRIV_REQUIRES 
+          esp_timer
     EMBED_TXTFILES 
         "server_root_cert.pem"
         "local_server_cert.pem"

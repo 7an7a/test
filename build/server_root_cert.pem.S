@@ -1,4 +1,4 @@
-/* * Data converted from /Users/Tanya/https/main/server_root_cert.pem
+/* * Data converted from /Users/Tanya/2dm_test/main/server_root_cert.pem
  * (null byte appended)
  */
 .data

@@ -1,4 +1,4 @@
-/* * Data converted from /Users/Tanya/https/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/Tanya/2dm_test/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

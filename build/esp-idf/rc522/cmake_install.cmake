@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Tanya/https/rc522
+# Install script for directory: /Users/Tanya/2dm_test/components/rc522
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/Users/Tanya/esp/esp-idf/components/bootloader/subproject"
-  "/Users/Tanya/https/build/bootloader"
-  "/Users/Tanya/https/build/bootloader-prefix"
-  "/Users/Tanya/https/build/bootloader-prefix/tmp"
-  "/Users/Tanya/https/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/Tanya/https/build/bootloader-prefix/src"
-  "/Users/Tanya/https/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/Tanya/2dm_test/build/bootloader"
+  "/Users/Tanya/2dm_test/build/bootloader-prefix"
+  "/Users/Tanya/2dm_test/build/bootloader-prefix/tmp"
+  "/Users/Tanya/2dm_test/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/Tanya/2dm_test/build/bootloader-prefix/src"
+  "/Users/Tanya/2dm_test/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/Tanya/https/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/Tanya/2dm_test/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/Tanya/https/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/Tanya/2dm_test/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

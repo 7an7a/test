@@ -31763,6 +31763,24 @@
                 "id": "component-config-rc522",
                 "title": "RC522",
                 "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "The Sector Trailer block stores authentication keys\nand access bits. Enabling this option prevents writing\nto the Trailer block. This is enabled by default to protect\ninexperienced users from accidentally overwriting keys or\nwriting incorrect access bits, which could render the sector\nunusable.",
+                        "id": "RC522_PREVENT_SECTOR_TRAILER_WRITE",
+                        "name": "RC522_PREVENT_SECTOR_TRAILER_WRITE",
+                        "range": null,
+                        "title": "Prevent writing to the Sector Trailer block",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-rc522",
+                "title": "RC522",
+                "type": "menu"
             }
         ],
         "depends_on": null,

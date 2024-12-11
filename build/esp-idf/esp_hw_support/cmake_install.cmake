@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/Tanya/https/build/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
+  include("/Users/Tanya/2dm_test/build/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/Tanya/https/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("/Users/Tanya/2dm_test/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 
