@@ -76,7 +76,7 @@ void check_and_perform_ota() {
     //    ESP_LOGE(OTA_TAG, "网络未连接,跳过OTA");
      //   return;
    // }
-
+//
     // 添加根证书声明
     extern const uint8_t server_root_cert_pem_start[] asm("_binary_server_root_cert_pem_start");
    // extern const uint8_t server_root_cert_pem_end[] asm("_binary_server_root_cert_pem_end");
