@@ -21,6 +21,9 @@ idf_component_register(
           led_strip
     PRIV_REQUIRES 
           esp_timer
+          app_update
+          esp_http_client
+          esp_https_ota
     EMBED_TXTFILES 
         "server_root_cert.pem"
         "local_server_cert.pem"

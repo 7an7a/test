@@ -42,21 +42,92 @@
 #include "rc522_types_internal.h"
 #include "rc522_internal.h"
 #include <esp_check.h>
-
+//加入ota
+#include "esp_ota_ops.h"
+#include "esp_http_client.h"
+#include "esp_https_ota.h"
 //  openssl s_client -connect apifoxmock.com:443
 
-#define configCHECK_FOR_STACK_OVERFLOW 1
+
 #define RAINBOW_LED_DELAY  10   // 彩虹灯延迟
 #define YELLOW_LED_DELAY   1000 // 黄灯延迟时间（2秒）
 #define RAINBOW_CHANGE_INTERVAL 50  // 彩虹灯颜色变化的间隔时间（单位：毫秒）
+
+#define CURRENT_FIRMWARE_VERSION "1.0.0"
+
+//添加版本号管理
+#define FIRMWARE_VERSION "1.0.0"
 // 用于控制彩虹灯显示的标志
 static bool rainbow_active = true;
 
-
+static const char *OTA_TAG = "RC522_OTA";  // 包含两个模块的信息
 extern led_strip_handle_t led_strip;
 extern led_strip_handle_t led_strip_2;
 
+//ota配置
+// 定义固件下载地址
+#define FIRMWARE_URL "https://raw.githubusercontent.com/7an7a/test/main/firmware.bin"
 
+void check_and_perform_ota() {
+    ESP_LOGI(OTA_TAG, "开始检查固件更新");
+
+    // 网络连接检查
+   // if (!esp_wifi_connect()) {
+    //    ESP_LOGE(OTA_TAG, "网络未连接,跳过OTA");
+     //   return;
+   // }
+
+    // 添加根证书声明
+    extern const uint8_t server_root_cert_pem_start[] asm("_binary_server_root_cert_pem_start");
+   // extern const uint8_t server_root_cert_pem_end[] asm("_binary_server_root_cert_pem_end");
+
+    // 获取当前固件版本
+    esp_app_desc_t running_app_info;
+    esp_err_t err = esp_ota_get_partition_description(esp_ota_get_running_partition(), &running_app_info);
+    
+    if (err != ESP_OK) {
+        ESP_LOGE(OTA_TAG, "获取当前固件版本失败");
+        return;
+    }
+
+    ESP_LOGI(OTA_TAG, "当前固件版本: %s", running_app_info.version);
+
+    esp_http_client_config_t config = {
+        .url = FIRMWARE_URL,
+        .cert_pem = (const char *)server_root_cert_pem_start,
+        .timeout_ms = 10000,
+    };
+    
+    esp_https_ota_config_t ota_config = {
+        .http_config = &config,
+    };
+
+    esp_err_t ret = esp_https_ota(&ota_config);
+    if (ret == ESP_OK) {
+        ESP_LOGI(OTA_TAG, "OTA更新成功");
+        esp_restart();
+    } else {
+        ESP_LOGE(OTA_TAG, "OTA更新失败,错误码: 0x%x", ret);
+        
+        // 使用通用错误处理
+        switch(ret) {
+            case ESP_FAIL:
+                ESP_LOGE(OTA_TAG, "OTA通用失败");
+                break;
+            default:
+                ESP_LOGE(OTA_TAG, "未知错误");
+                break;
+        }
+    }
+}
+
+// OTA检查任务
+void ota_check_task(void *pvParameters) {
+    while(1) {
+        vTaskDelay(pdMS_TO_TICKS(3600));  // 每小时检查一次
+        check_and_perform_ota();
+    }
+}
 
 
 // 引脚配置
@@ -86,7 +157,9 @@ uint8_t* colors[] = {red, orange, yellow, green, cyan, blue, purple};
 #define WEB_SERVER "apifoxmock.com"
 #define WEB_PORT "443"
 //#define WEB_URL "https://apifoxmock.com/m1/5440136-5115246-default/light/status"
+#ifndef WEB_URL
 #define WEB_URL "https://apifoxmock.com/m1/5440136-5115246-default/light/status?uid=%s"
+#endif
 #define WEB_POST_URL "https://apifoxmock.com/m1/5440136-5115246-default/light/status?uid=%s"
 
 // 全局变量
@@ -132,6 +205,7 @@ static rc522_handle_t scanner;
 //nslookup pool.ntp.org
 //Name:    pool.ntp.org
 //Addresses:  123.123.123.123
+
 
 void initialize_sntp(void)
 {
@@ -459,6 +533,10 @@ void app_main(void) {
     ESP_ERROR_CHECK(example_connect());
     ESP_LOGI(TAG, "Wi-Fi connected successfully");
 
+    // 创建 OTA 检查任务
+    xTaskCreate(ota_check_task, "OTA_CHECK", 4096, NULL, 5, NULL);
+    check_and_perform_ota();
+
     
     // 初始化 SNTP
     vTaskDelay(pdMS_TO_TICKS(1000)); 
@@ -533,6 +611,10 @@ void app_main(void) {
             hue_offset = 0;
            }
         }
+       
+
+       
+       
         vTaskDelay(10 / portTICK_PERIOD_MS);
        
     }
