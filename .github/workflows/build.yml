@@ -15,6 +15,7 @@ jobs:
       with:
         esp_idf_version: v5.5
         target: esp32s3
+        path:
     - name: Build firmware
       run: |
         . $IDF_PATH/export.sh
@@ -23,5 +24,6 @@ jobs:
     - name: Upload firmware
       uses: actions/upload-artifact@v3
       with:
-        name: firmware
-        path: build/firmware.bin
+        name: 2dm_test
+        path: build/2dm_test.bingit 
+
