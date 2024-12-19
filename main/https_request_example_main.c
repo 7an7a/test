@@ -68,67 +68,6 @@ extern led_strip_handle_t led_strip_2;
 // 定义固件下载地址
 #define FIRMWARE_URL "https://raw.githubusercontent.com/7an7a/test/main/firmware.bin"
 
-void check_and_perform_ota() {
-    ESP_LOGI(OTA_TAG, "开始检查固件更新");
-
-    // 网络连接检查
-   // if (!esp_wifi_connect()) {
-    //    ESP_LOGE(OTA_TAG, "网络未连接,跳过OTA");
-     //   return;
-   // }
-//
-    // 添加根证书声明
-    extern const uint8_t server_root_cert_pem_start[] asm("_binary_server_root_cert_pem_start");
-   // extern const uint8_t server_root_cert_pem_end[] asm("_binary_server_root_cert_pem_end");
-
-    // 获取当前固件版本
-    esp_app_desc_t running_app_info;
-    esp_err_t err = esp_ota_get_partition_description(esp_ota_get_running_partition(), &running_app_info);
-    
-    if (err != ESP_OK) {
-        ESP_LOGE(OTA_TAG, "获取当前固件版本失败");
-        return;
-    }
-
-    ESP_LOGI(OTA_TAG, "当前固件版本: %s", running_app_info.version);
-
-    esp_http_client_config_t config = {
-        .url = FIRMWARE_URL,
-        .cert_pem = (const char *)server_root_cert_pem_start,
-        .timeout_ms = 10000,
-    };
-    
-    esp_https_ota_config_t ota_config = {
-        .http_config = &config,
-    };
-
-    esp_err_t ret = esp_https_ota(&ota_config);
-    if (ret == ESP_OK) {
-        ESP_LOGI(OTA_TAG, "OTA更新成功");
-        esp_restart();
-    } else {
-        ESP_LOGE(OTA_TAG, "OTA更新失败,错误码: 0x%x", ret);
-        
-        // 使用通用错误处理
-        switch(ret) {
-            case ESP_FAIL:
-                ESP_LOGE(OTA_TAG, "OTA通用失败");
-                break;
-            default:
-                ESP_LOGE(OTA_TAG, "未知错误");
-                break;
-        }
-    }
-}
-
-// OTA检查任务
-void ota_check_task(void *pvParameters) {
-    while(1) {
-        vTaskDelay(pdMS_TO_TICKS(3600));  // 每小时检查一次
-        check_and_perform_ota();
-    }
-}
-
 
 // 引脚配置
 #define RC522_SPI_BUS_GPIO_MISO    (11)
@@ -508,6 +447,63 @@ void set_led_rainbow(led_strip_handle_t led_strip, uint16_t hue_offset) {
 
 
 
+//OTA
+void check_and_perform_ota() {
+    ESP_LOGI(OTA_TAG, "开始检查固件更新");
+
+
+    // 添加根证书声明
+    extern const uint8_t server_root_cert_pem_start[] asm("_binary_server_root_cert_pem_start");
+    extern const uint8_t server_root_cert_pem_end[] asm("_binary_server_root_cert_pem_end");
+
+    // 获取当前固件版本
+    esp_app_desc_t running_app_info;
+    esp_err_t err = esp_ota_get_partition_description(esp_ota_get_running_partition(), &running_app_info);
+    
+    if (err != ESP_OK) {
+        ESP_LOGE(OTA_TAG, "获取当前固件版本失败");
+        return;
+    }
+
+    ESP_LOGI(OTA_TAG, "当前固件版本: %s", running_app_info.version);
+
+    esp_http_client_config_t config = {
+        .url = FIRMWARE_URL,
+        .cert_pem = (const char *)server_root_cert_pem_start,
+        .timeout_ms = 60000,
+    };
+    
+    esp_https_ota_config_t ota_config = {
+        .http_config = &config,
+    };
+
+    esp_err_t ret = esp_https_ota(&ota_config);
+    if (ret == ESP_OK) {
+        ESP_LOGI(OTA_TAG, "OTA更新成功");
+        esp_restart();
+    } else {
+        ESP_LOGE(OTA_TAG, "OTA更新失败,错误码: 0x%x", ret);
+        
+        // 使用通用错误处理
+        switch(ret) {
+            case ESP_FAIL:
+                ESP_LOGE(OTA_TAG, "OTA通用失败");
+                break;
+            default:
+                ESP_LOGE(OTA_TAG, "未知错误");
+                break;
+        }
+    }
+}
+
+// OTA检查任务
+void ota_check_task(void *pvParameters) {
+    while(1) {
+        vTaskDelay(pdMS_TO_TICKS(3600));  // 每小时检查一次
+        check_and_perform_ota();
+    }
+}
+
 
 
 // 主函数
@@ -611,9 +607,7 @@ void app_main(void) {
             hue_offset = 0;
            }
         }
-       
-
-       
+    
        
         vTaskDelay(10 / portTICK_PERIOD_MS);
        
