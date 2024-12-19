@@ -5,11 +5,5 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
 set(EXTRA_COMPONENT_DIRS /Users/Tanya/2dm_test/components/rc522)
 
-
-
-
-
-
-
 # 定义项目名称
 project(2dm_test)

@@ -31,6 +31,7 @@
 /Users/Tanya/2dm_test/build/esp-idf/esp_event/libesp_event.a
 /Users/Tanya/2dm_test/build/esp-idf/nvs_flash/libnvs_flash.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_phy/libesp_phy.a
+/Users/Tanya/2dm_test/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_vfs_console/libesp_vfs_console.a
 /Users/Tanya/2dm_test/build/esp-idf/vfs/libvfs.a
 /Users/Tanya/2dm_test/build/esp-idf/lwip/liblwip.a
@@ -48,9 +49,8 @@
 /Users/Tanya/2dm_test/build/esp-idf/sdmmc/libsdmmc.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-/Users/Tanya/2dm_test/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-/Users/Tanya/2dm_test/build/esp-idf/esp_driver_dac/libesp_driver_dac.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+/Users/Tanya/2dm_test/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a
@@ -59,6 +59,7 @@
 /Users/Tanya/2dm_test/build/esp-idf/esp-tls/libesp-tls.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_adc/libesp_adc.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_driver_cam/libesp_driver_cam.a
+/Users/Tanya/2dm_test/build/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_eth/libesp_eth.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_gdbstub/libesp_gdbstub.a
 /Users/Tanya/2dm_test/build/esp-idf/esp_hid/libesp_hid.a
@@ -80,6 +81,8 @@
 /Users/Tanya/2dm_test/build/esp-idf/perfmon/libperfmon.a
 /Users/Tanya/2dm_test/build/esp-idf/rt/librt.a
 /Users/Tanya/2dm_test/build/esp-idf/spiffs/libspiffs.a
+/Users/Tanya/2dm_test/build/esp-idf/touch_element/libtouch_element.a
+/Users/Tanya/2dm_test/build/esp-idf/usb/libusb.a
 /Users/Tanya/2dm_test/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /Users/Tanya/2dm_test/build/esp-idf/rc522/librc522.a
 /Users/Tanya/2dm_test/build/esp-idf/espressif__led_strip/libespressif__led_strip.a
