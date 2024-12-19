@@ -66,7 +66,7 @@ extern led_strip_handle_t led_strip_2;
 
 //ota配置
 // 定义固件下载地址
-#define FIRMWARE_URL "https://raw.githubusercontent.com/7an7a/test/main/firmware.bin"
+#define FIRMWARE_URL "https://raw.githubusercontent.com/7an7a/test/refs/heads/main/.github/workflows/release.yml"
 
 
 // 引脚配置
